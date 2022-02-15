@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      server-addr: 162.14.96.147:8848
+      config:
+        name: config-dev
+        file-extension: yml
+        namespace: public
+
+
+
