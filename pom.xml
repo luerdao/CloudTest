@@ -11,7 +11,6 @@
     <modules>
         <module>server</module>
         <module>config</module>
-        <module>config2</module>
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

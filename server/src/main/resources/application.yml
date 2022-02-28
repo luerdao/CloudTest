@@ -1,8 +1,9 @@
 spring:
   application:
-    name: SERVER
+    name: ProductServer
   cloud:
     nacos:
       server-addr: 162.14.96.147:8848
 server:
   port: 8789
+
