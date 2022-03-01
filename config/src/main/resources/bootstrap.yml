@@ -6,6 +6,7 @@ spring:
         name: config-dev
         file-extension: yml
         namespace: public
-
-
+feign:
+  hystrix:
+    enabled: true
 

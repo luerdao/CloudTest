@@ -20,7 +20,7 @@ public class HelloController {
         return username;
     }
 
-    @GetMapping("/test")
+    @GetMapping("/test2")
     @HystrixCommand(fallbackMethod = "testBreakFall")
     public String test(int id){
         System.out.println("进入test接口,id =" + id);
@@ -33,4 +33,5 @@ public class HelloController {
     public String testBreakFall(int id){
         return "当前数据不合法" + id;
     }
+
 }
